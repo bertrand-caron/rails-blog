@@ -1,7 +1,7 @@
 .author-side
   %h2#blog-title
     =link_to Blog::APP_CONFIG['blog']['title'], root_path
-  = image_tag Blog::APP_CONFIG['author']['img'], id: 'author-img'
+  =image_tag Blog::APP_CONFIG['author']['img'], id: 'author-img'
   %h2= Blog::APP_CONFIG['author']['name']
   %p.justified= Blog::APP_CONFIG['author']['biography']
   %ul#author-side-links
@@ -17,3 +17,7 @@
       %li
         = fa_icon "stack-overflow"
         = link_to 'Stack Overflow', "http://stackoverflow.com/users/#{Blog::APP_CONFIG['author']['stack-overflow']}"
+    %a
+      %li
+        = fa_icon "industry"
+        = link_to 'CV', Blog::APP_CONFIG['author']['cv_link']
