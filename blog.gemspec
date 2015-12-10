@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.2.1"
   s.add_dependency "haml", "~> 4.0.6"
-  s.add_dependency "font-awesome-rails", "~> 4.3.0"
+  s.add_dependency "font-awesome-rails", "~> 4.5.0"
   s.add_dependency "twitter-bootstrap-rails", "~> 3.2.0"
   s.add_dependency "jquery-rails", "~> 4.0.3"
   s.add_dependency "redcarpet", "~> 3.2.3"
